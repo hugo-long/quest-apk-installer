@@ -1,0 +1,12 @@
+dist/
+*.exe
+*.zip
+*.log
+startup-error.txt
+quest-install-*.txt
+platform-tools/
+*.apk
+*.apks
+*.xapk
+*.obb
+.vs/
