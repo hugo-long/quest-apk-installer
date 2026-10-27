@@ -1,4 +1,4 @@
-param([switch]$SelfTest)
+﻿param([switch]$SelfTest)
 $ErrorActionPreference = 'Stop'
 $appDirectory = $PSScriptRoot
 if (!$appDirectory) { $appDirectory = [AppDomain]::CurrentDomain.BaseDirectory }

@@ -1,4 +1,4 @@
-param([string]$Version = '0.1.0')
+﻿param([string]$Version = '0.1.0')
 $ErrorActionPreference = 'Stop'
 if ($Version -notmatch '^\d+\.\d+\.\d+(?:-[A-Za-z0-9.-]+)?$') { throw 'Invalid version.' }
 if ($PSVersionTable.PSEdition -eq 'Core') { throw 'Run this build with Windows PowerShell 5.1 (powershell.exe).' }

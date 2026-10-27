@@ -1,4 +1,5 @@
 name: Build Windows release
+# PowerShell 5.1 source files retain their UTF-8 BOM.
 
 on:
   workflow_dispatch:
